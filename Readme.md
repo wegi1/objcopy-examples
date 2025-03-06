@@ -27,9 +27,12 @@ Usage: objcopy.exe [option(s)] in-file [out-file]
   
   -F --target <bfdname>            Set both input and output format to <bfdname>
      --debugging                   Convert debugging information, if possible
+     
   -p --preserve-dates              Copy modified/access timestamps to the output
+  
   -D --enable-deterministic-archives
                                    Produce deterministic output when stripping archives
+                                   
   -U --disable-deterministic-archives
                                    Disable -D behavior (default)
   -j --only-section <name>         Only copy section <name> into the output
