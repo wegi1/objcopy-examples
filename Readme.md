@@ -183,41 +183,77 @@ elf32-littlearm
   arm
   
 elf32-bigarm
+
  (header big endian, data big endian)
+ 
   arm
+  
 elf32-little
+
  (header little endian, data little endian)
+ 
   plugin
+  
   arm
+  
 elf32-big
+
  (header big endian, data big endian)
+ 
   plugin
+  
   arm
+  
 plugin
+
  (header little endian, data little endian)
+ 
 srec
+
  (header endianness unknown, data endianness unknown)
+ 
   plugin
+  
   arm
+  
 symbolsrec
+
  (header endianness unknown, data endianness unknown)
+ 
   plugin
+  
   arm
+  
 verilog
+
  (header endianness unknown, data endianness unknown)
+ 
   plugin
+  
   arm
+  
 tekhex
+
  (header endianness unknown, data endianness unknown)
+ 
   plugin
+  
   arm
+  
 binary
+
  (header endianness unknown, data endianness unknown)
+ 
   plugin
+  
   arm
+  
 ihex
+
  (header endianness unknown, data endianness unknown)
+ 
   plugin
+  
   arm
 
                elf32-littlearm elf32-bigarm elf32-little elf32-big plugin srec 
