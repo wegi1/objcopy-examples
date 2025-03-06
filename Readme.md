@@ -69,10 +69,14 @@ Usage: objcopy.exe [option(s)] in-file [out-file]
   
      --keep-file-symbols           Do not strip file symbol(s)
      --localize-hidden             Turn all ELF hidden symbols into locals
+     
   -L --localize-symbol <name>      Force symbol <name> to be marked as a local
+  
      --globalize-symbol <name>     Force symbol <name> to be marked as a global
   -G --keep-global-symbol <name>   Localize all symbols except <name>
+  
   -W --weaken-symbol <name>        Force symbol <name> to be marked as a weak
+  
      --weaken                      Force all global symbols to be marked as weak
   -w --wildcard                    Permit wildcard in symbol comparison
   -x --discard-all                 Remove all non-global symbols
