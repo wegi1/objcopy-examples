@@ -1,13 +1,16 @@
 # extract from elf file:
 objcopy.exe -O ihex elf_file.elf hexfile.hex
+
 objcopy.exe -O binary elf_file.elf binfile.bin
 
 # convert ihex file to binary:
 objcopy.exe -I ihex -O binary hexfile.hex binfile.bin
+
 objcopy.exe --input-target=ihex --output-target=binary hexfile.hex binfile.bin
 
 # convert from binary file to ihex:
 objcopy.exe -I binary -O ihex test.bin test.hex
+
 objcopy.exe --input-target=binary --output-target=ihex test.bin test.hex
 
 # // HELP OUTLINE 
