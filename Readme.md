@@ -79,11 +79,17 @@ Usage: objcopy.exe [option(s)] in-file [out-file]
   
      --weaken                      Force all global symbols to be marked as weak
   -w --wildcard                    Permit wildcard in symbol comparison
+  
   -x --discard-all                 Remove all non-global symbols
+  
   -X --discard-locals              Remove any compiler-generated symbols
+  
   -i --interleave[=<number>]       Only copy N out of every <number> bytes
+  
      --interleave-width <number>   Set N for --interleave
+     
   -b --byte <num>                  Select byte <num> in every interleaved block
+  
      --gap-fill <val>              Fill gaps between sections with <val>
      --pad-to <addr>               Pad the last section up to address <addr>
      --set-start <addr>            Set the start address to <addr>
