@@ -34,22 +34,39 @@ Usage: objcopy.exe [option(s)] in-file [out-file]
                                    Produce deterministic output when stripping archives
                                    
   -U --disable-deterministic-archives
+  
                                    Disable -D behavior (default)
+                                   
   -j --only-section <name>         Only copy section <name> into the output
+  
      --add-gnu-debuglink=<file>    Add section .gnu_debuglink linking to <file>
+     
   -R --remove-section <name>       Remove section <name> from the output
+  
   -S --strip-all                   Remove all symbol and relocation information
+  
   -g --strip-debug                 Remove all debugging symbols & sections
+  
      --strip-dwo                   Remove all DWO sections
+     
      --strip-unneeded              Remove all symbols not needed by relocations
+     
   -N --strip-symbol <name>         Do not copy symbol <name>
+  
      --strip-unneeded-symbol <name>
+     
                                    Do not copy symbol <name> unless needed by
+                                   
                                      relocations
+                                     
      --only-keep-debug             Strip everything but the debug information
+     
      --extract-dwo                 Copy only DWO sections
+     
      --extract-symbol              Remove section contents but keep symbols
+     
   -K --keep-symbol <name>          Do not strip symbol <name>
+  
      --keep-file-symbols           Do not strip file symbol(s)
      --localize-hidden             Turn all ELF hidden symbols into locals
   -L --localize-symbol <name>      Force symbol <name> to be marked as a local
