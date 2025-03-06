@@ -71,16 +71,26 @@ __attribute__ ((section(".txBuffer"), used))  uint8_t TxBuffer[10];
 for this is needed add section in ld linker script:
 ---
 //============================
+
 .rxBuf(NOLOAD) :
+
 {
+
   . = ALIGN(4)
+  
   . = ABSOLUTE (0x20000000)
+  
   *(.rxBuffer)
+  
 
   . = ABSOLUTE (0x20000010)
+  
   *(.txBuffer)
+  
 } >RAM
+
 //=============================
+
 
 ---
 # -----------------
