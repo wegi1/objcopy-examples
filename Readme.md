@@ -155,12 +155,19 @@ Usage: objcopy.exe [option(s)] in-file [out-file]
      --compress-debug-sections[={none|zlib|zlib-gnu|zlib-gabi}]
                                    Compress DWARF debug sections using zlib
      --decompress-debug-sections   Decompress DWARF debug sections using zlib
+     
   -v --verbose                     List all object files modified
+  
   @<file>                          Read options from <file>
+  
   -V --version                     Display this program's version number
+  
   -h --help                        Display this output
+  
      --info                        List object formats & architectures supported
+     
 objcopy.exe: supported targets: elf32-littlearm elf32-bigarm elf32-little elf32-big plugin srec symbolsrec verilog tekhex binary ihex
+
 Report bugs to <http://www.sourceware.org/bugzilla/>
 
 //===================================
@@ -168,9 +175,13 @@ Report bugs to <http://www.sourceware.org/bugzilla/>
 //===================================
 
 BFD header file version (GNU Tools for ARM Embedded Processors) 2.26.0.20160310
+
 elf32-littlearm
+
  (header little endian, data little endian)
+ 
   arm
+  
 elf32-bigarm
  (header big endian, data big endian)
   arm
