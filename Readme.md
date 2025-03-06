@@ -16,10 +16,15 @@ objcopy.exe --help
 
 Usage: objcopy.exe [option(s)] in-file [out-file]
  Copies a binary file, possibly transforming it in the process
+ 
  The options are:
+ 
   -I --input-target <bfdname>      Assume input file is in format <bfdname>
+  
   -O --output-target <bfdname>     Create an output file in format <bfdname>
+  
   -B --binary-architecture <arch>  Set output arch, when input is arch-less
+  
   -F --target <bfdname>            Set both input and output format to <bfdname>
      --debugging                   Convert debugging information, if possible
   -p --preserve-dates              Copy modified/access timestamps to the output
