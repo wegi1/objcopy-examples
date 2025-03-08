@@ -169,12 +169,27 @@ Usage: objcopy.exe [option(s)] in-file [out-file]
   
      --info                        List object formats & architectures supported
      
-objcopy.exe: supported targets: elf32-littlearm elf32-bigarm elf32-little elf32-big plugin srec symbolsrec verilog tekhex binary ihex
+objcopy.exe: 
+ supported targets:
+ 
+    elf32-littlearm 
+    elf32-bigarm 
+    elf32-little 
+    elf32-big 
+    plugin 
+    srec 
+    symbolsrec 
+    verilog 
+    tekhex 
+    binary 
+    ihex
 
-Report bugs to <http://www.sourceware.org/bugzilla/>
+
 
 //===================================
+
 // == objcopy.exe --info
+
 //===================================
 
 BFD header file version (GNU Tools for ARM Embedded Processors) 2.26.0.20160310
